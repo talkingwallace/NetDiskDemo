@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="utf-8">
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="myCtrl">
+        <input type="text" ng-model="firstname"><br>
+        <input type="text" ng-model="lastname"><br>
+         <input type="button" ng-click="alert()" value="提交看看">
+            {{fullname()}}
+    </div>
+    <script>
+        var app = angular.module('myApp',[]);
+        app.controller('myCtrl',function($scope,$http){
+           $scope.fullname=function(){
+             if($scope.firstname&&$scope.lastname){
+                 return $scope.firstname+$scope.lastname;
+             }
+           };
+            $scope.sdata2 = {
+                name:'Angularjs',
+                pwd:'Angularjs'
+            };
+            $scope.alert=function(){
+                alert('fuckyou');
+                $http({
+                    method: 'GET',
+                    url: 'http://localhost:8000/loginPage',
+                    data:$scope.sdata2
+                }).then(function successCallback(response) {
+                    alert('hi');
+                    alert(response);
+                 }, function errorCallback(response) {
+                    alert('no');
+                 });
+            };
+
+        });
+    </script>
+</body>
+</html> 
