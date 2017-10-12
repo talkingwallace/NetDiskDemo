@@ -1,12 +1,11 @@
-# NetDiskDemo
-
-A small sized netdiks with the implementations of ReactJS,NodeJS and MongoDB.
+# A small sized netdiks with the implementations of ReactJS,NodeJS and MongoDB
 
 * How to run it
 ----------------
+
 After you download the project:
 
-1.Firtly download Mongodb from:https://www.mongodb.com/
+1.Firstly download Mongodb from:https://www.mongodb.com/
 then install it.After installing it,create a new folder,mongodb will store data 
 in it.Then open Powershell(CMD is also ok),locate at the place where mongodb are
 installed in,input: mongod.exe --dbpath:"the new folder's path",and then the mo-
@@ -25,7 +24,18 @@ the website now,Sign in and sign up!
 * Place it on Cloud Sever
 ------------------------
 
+It's simple to place it on a Tencent Yun Server.Get a server from:
+https://cloud.tencent.com/ Connect to the Yun server,upload the project,and
+install Mongodb,NodeJS on it.Run it on the Yun server,like runnint it on your
+computer.You will get an ip,the outer ip after buying a server,so just open
+Chrome,input "the outer ip"+"port",press enter,then you will find yourself
+having your own netdisk website.
 
+Warning:If you don't get your domain name a ICP licensing,you are likely to
+be asked to shut down the server.
+Because http://www.cac.gov.cn/ is watching you.
 
+* Structures of the netdisk
+---------------------------
 
 
