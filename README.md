@@ -1,4 +1,5 @@
-# A small sized netdiks with the implementations of ReactJS,NodeJS and MongoDB
+# A small sized netdisk 
+# Based on ReactJS,NodeJS and MongoDB
 
 * How to run it
 ----------------
