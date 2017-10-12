@@ -22,7 +22,7 @@ You can change the running port in the source file 'server.js'.
 3.Now the server is running,open Chrome and input: localhost:8000,you can visit 
 the website now,Sign in and sign up!
 
-*Place it on Cloud Sever
+* Place it on Cloud Sever
 ------------------------
 
 
