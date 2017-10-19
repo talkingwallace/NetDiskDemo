@@ -51,8 +51,13 @@ Because http://www.cac.gov.cn/ is watching you.
   Javascript scripts are deployed on server.Based on Express frame,the server are able to manipulate mongodb
   ,recieve files and send files,at the same time,the server will check if a request is legal,and make to
   response to users' request.
- ### MongoDB and Filepool
-  
+ ### MongoDB and Filespool
+   Real Files are stored in 'filepool' folder,under project folder,with their name renamed by an unique hashcode.
+   By this way,we can make sharing easier.Users' informantion are placed in Mongodb,a no-sql database.Also,logical
+   files tree are built in mongodb.Every user has a tree.A file will be a tree node,and have its unique id,which 
+   map to a real file in the filespool.A folder node can have a parent and childrens,while file node can't.So,by 
+   reading from mongodb,the fore-end can create a interface where a user can manipulates his(hers) files like manipulating
+   them in a OS's file system.
 
 ## TODO
 * complete personal homepage part
