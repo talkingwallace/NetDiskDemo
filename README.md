@@ -38,11 +38,16 @@ computer.You will get an ip,the outer ip after buying a server,so just open
 Chrome,input "the outer ip"+"port",press enter,then you will find yourself 
 having your own netdisk website. 
 
-Warning:If you don't get your domain name a ICP licensing,you are likely to 
+Warining:To let it run successfully,make sure to change variety 'localhost',which is in file 'main.js' under
+folder /public/js ,to your server's url.Also change server's url in file 'login.html',which is under folder 'view',
+to make sure that login and register functions work correctly.
+
+Warning2:If you don't get your domain name a ICP licensing,you are likely to 
 be asked to shut down the server. 
 Because http://www.cac.gov.cn/ is watching you. 
 
 ## Structure
+
 ### Fore-end
   ReactJS is applied to bind file functions,file icon and file id together.Make them a whole component.
  Users' request will be sent to server,after getting the response,file component written by Reactjs will
@@ -52,12 +57,14 @@ Because http://www.cac.gov.cn/ is watching you.
   ,recieve files and send files,at the same time,the server will check if a request is legal,and make to
   response to users' request.
  ### MongoDB and Filespool
-   Real Files are stored in 'filepool' folder,under project folder,with their name renamed by an unique hashcode.
+   Real Files are stored in 'filepool' folder,under project folder,with their name renamed by an unique id.
    By this way,we can make sharing easier.Users' informantion are placed in Mongodb,a no-sql database.Also,logical
-   files tree are built in mongodb.Every user has a tree.A file will be a tree node,and have its unique id,which 
-   map to a real file in the filespool.A folder node can have a parent and childrens,while file node can't.So,by 
+   files tree are built in mongodb.Every user has a tree.A file will be a tree node,and has its unique id,which 
+   maps to a real file in the filespool.A folder node can has a parent and childrens,while file node can't.So,by 
    reading from mongodb,the fore-end can create a interface where a user can manipulates his(hers) files like manipulating
    them in a OS's file system.
+ <br>
+   To have a deep understanding of its structure,please check its codes.
 
 ## TODO
 * complete personal homepage part
