@@ -7,6 +7,7 @@
 * Extendable  -- develop your own storage website based on it
 * Simple structures -- easy to modify
 * Easy to deploy -- install Mongodb and Nodejs,then run it
+* On Windows OS
 
 ## How to run it
 
@@ -40,6 +41,18 @@ having your own netdisk website.
 Warning:If you don't get your domain name a ICP licensing,you are likely to 
 be asked to shut down the server. 
 Because http://www.cac.gov.cn/ is watching you. 
+
+## Structure
+### Fore-end
+  ReactJS is applied to bind file functions,file icon and file id together.Make them a whole component.
+ Users' request will be sent to server,after getting the response,file component written by Reactjs will
+ render,change webpage's html text or insert new html text into webpage.
+ ### Server
+  Javascript scripts are deployed on server.Based on Express frame,the server are able to manipulate mongodb
+  ,recieve files and send files,at the same time,the server will check if a request is legal,and make to
+  response to users' request.
+ ### MongoDB and Filepool
+  
 
 ## TODO
 * complete personal homepage part
