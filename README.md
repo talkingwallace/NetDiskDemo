@@ -38,7 +38,7 @@ computer.You will get an ip,the outer ip after buying a server,so just open
 Chrome,input "the outer ip"+"port",press enter,then you will find yourself 
 having your own netdisk website. 
 
-Warining:To let it run successfully,make sure to change variety 'localhost',which is in file 'main.js' under
+Warning:To let it run successfully,make sure to change variety 'localhost',which is in file 'main.js' under
 folder /public/js ,to your server's url.Also change server's url in file 'login.html',which is under folder 'view',
 to make sure that login and register functions work correctly.
 
