@@ -41,9 +41,6 @@ Warning:If you don't get your domain name a ICP licensing,you are likely to
 be asked to shut down the server. 
 Because http://www.cac.gov.cn/ is watching you. 
 
-## Structures of the netdisk
-
-
 ## TODO
 * complete personal homepage part
 * add filter to input,in order to prevent XSS attacks
