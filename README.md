@@ -1,5 +1,5 @@
 # A small sized netdisk 
-# Based on ReactJS,NodeJS and MongoDB
+### Based on ReactJS,NodeJS and MongoDB
 
 # * How to run it
 
