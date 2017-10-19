@@ -12,12 +12,12 @@
 
 After you download the project:
 
-1.Firstly download Mongodb from:https://www.mongodb.com/ <br>
-then install it.After installing it,create a new folder,mongodb will store data <br>
-in it.Then open Powershell(CMD is also ok),locate at the place where mongodb are <br>
-installed in,input: mongod.exe --dbpath:"the new folder's path",and then the mo- <br>
--ngodb is launched. <br>
-Mongodb will run on port 27017,27017 is a default value; <br>
+1.Firstly download Mongodb from:https://www.mongodb.com/ 
+then install it.After installing it,create a new folder,mongodb will store data 
+in it.Then open Powershell(CMD is also ok),locate at the place where mongodb are 
+installed in,input: mongod.exe --dbpath:"the new folder's path",and then the mo- 
+-ngodb is launched. 
+Mongodb will run on port 27017,27017 is a default value
 
 2.Get NodeJS from:https://nodejs.org/en/ ,install it. <br>
 Now you can run Javascript scripts in you computer.Locate at the project folder, <br>
