@@ -1,6 +1,13 @@
 # A small sized netdisk 
 ### Based on ReactJS,NodeJS and MongoDB
 
+# * Features
+
+* A
+* B
+* C
+* D
+
 # * How to run it
 
 After you download the project:
