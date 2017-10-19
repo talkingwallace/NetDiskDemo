@@ -3,10 +3,10 @@
 
 ## Features
 
-* A
-* B
-* C
-* D
+* Lightweight -- 28.5M in total
+* Extendable  -- develop your own storage website based on it
+* Simple structures -- easy to modify
+* Easy to deploy -- install Mongodb and Nodejs,then run it
 
 ## How to run it
 
@@ -45,4 +45,4 @@ Because http://www.cac.gov.cn/ is watching you. <br>
 ## Structures of the netdisk
 
 
-
+## TODO
