@@ -1,7 +1,7 @@
 # A small sized netdisk 
 # Based on ReactJS,NodeJS and MongoDB
-
-* How to run it
+----------------
+# * How to run it
 ----------------
 
 After you download the project:
@@ -22,7 +22,8 @@ You can change the running port in the source file 'server.js'.
 3.Now the server is running,open Chrome and input: localhost:8000,you can visit 
 the website now,Sign in and sign up!
 
-* Place it on Cloud Sever
+------------------------
+# * Place it on Cloud Sever
 ------------------------
 
 It's simple to place it on a Tencent Yun Server.Get a server from:
@@ -36,7 +37,8 @@ Warning:If you don't get your domain name a ICP licensing,you are likely to
 be asked to shut down the server.
 Because http://www.cac.gov.cn/ is watching you.
 
-* Structures of the netdisk
+---------------------------
+# * Structures of the netdisk
 ---------------------------
 
 
